@@ -1,0 +1,20 @@
+
+
+.create-note-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.primary{
+    padding: .8rem 1.5rem;
+    box-shadow: 0 1rem 1.5rem rgba(0,0,0,.4);
+}
+.create-note-form input, .create-note-form textarea{
+    width: 100%;
+    padding: .5rem 1rem;
+    background: transparent;
+    border-radius: .2rem;
+    color: white;
+    outline: none;
+    border: 1px solid #222;
+}

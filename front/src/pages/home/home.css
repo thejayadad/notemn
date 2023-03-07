@@ -1,0 +1,28 @@
+
+
+.notes_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+}
+.add_btn{
+    position: fixed;
+    bottom: 4rem;
+    right: 30rem;
+    padding: 1rem;
+    background: orange;
+    color: white;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 600px){
+    #app{
+        width: 100vw;
+        height: 100vh;
+    }
+    .add_btn{
+        bottom: 6%;
+        right: 2rem;
+        padding: 1rem;
+    }
+}
